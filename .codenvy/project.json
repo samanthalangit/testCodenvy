@@ -1,0 +1,1 @@
+{"mixinTypes":[],"runners":{"configs":{},"default":"system:/java/standalone/simple/gui"},"builders":{"configs":{},"default":"maven"},"description":"Getting Started Guided Tour","type":"maven","attributes":{"languageVersion":["1.6"],"language":["java"]}}
