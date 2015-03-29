@@ -7,24 +7,17 @@ public class SimpleSquare
 {
   public static void main(String[] args) throws Exception
   {
-   
-    Tortoise.show();
-   Tortoise.setSpeed(10);
+   Tortoise.show();
+   Tortoise.setSpeed(9);
     for (int j = 0; j< 301; j++) {
-    
-  
-
- for (int i = 0; i < 4; i++) {
-   Tortoise.setPenWidth(j);
-  
- Tortoise.setPenColor(PenColors.getRandomColor());
-    Tortoise.move(50);
-
-Tortoise.turn(90);
-}
-      Tortoise.move(j);
-      Tortoise.turn(15);
-}
-
+		 for (int i = 0; i < 4; i++) {
+   		Tortoise.setPenWidth(j); 
+ 	   	Tortoise.setPenColor(PenColors.getRandomColor());
+    		Tortoise.move(50);
+			Tortoise.turn(90);
+		}    
+    	Tortoise.move(j);
+    	Tortoise.turn(15);
+	}
   }
 }
